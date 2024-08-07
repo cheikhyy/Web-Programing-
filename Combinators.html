@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Combinators </title>
+    <style>
+    #ddiv{
+        border: 2px solid;
+        text-align: center;
+        
+    }
+    #ddiv   +  /*  + ~  >  */  p {
+        background-color:rgb(40, 93, 124);
+    }
+    </style>
+</head>
+<body> 
+<!--/*  Combinators = explains the relationship between listed selectors 
+            = descendant 
+            >= child 
+            ~ = genral siblig 
+            + = adjacent siblig 
+
+            div > selectour 
+               */-->
+            <div id="ddiv">
+                <p>this is  #1</p>
+                <p>this is  #2</p>
+                <div>
+                    <p>this is  #3</p>
+                </div>
+            </div>
+ 
+            <p>  this is  #4</p>
+            <p>  this is  #5</p>
+        </body>
+</html>

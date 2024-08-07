@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style> 
+    body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(0, 136, 255);
+    }
+a:link{
+    color: aquamarine;
+}
+a:hover{
+    color: rgb(57, 57, 57);
+    font-size: 1.1em;
+}
+a:active{
+        font-size: 1.1em;
+}
+a:visited{
+    color: chocolate;
+}
+ 
+li:hover{
+    background-color: rgb(207, 207, 207);
+    width: max-content;
+    padding: 2px;
+    
+}
+li:not(:hover){
+    background-color: rgb(82, 81, 81);
+    width: 200px; 
+}
+
+li:nth-child(odd){
+    background-color: yellow;
+}
+
+li:nth-child(even){
+    background-color: rgb(57, 57, 55);
+}
+
+.Hy p {
+        background-color: rgba(5, 18, 59, 0.409);
+        width: max-content;
+        padding: 10px;
+        display: none;
+}.Hy a{
+ background-color: rgba(5, 18, 59, 0.409);
+        width: max-content;
+        padding: 10px;
+        display: none;
+}
+
+.Hy:hover p{
+    display: block;
+}
+.Hy:hover a{
+    display: block;
+}
+</style>
+<body>
+    <ul>
+        <li>this is a list #1 </li>
+        <li>this is a list #2 </li>
+        <li>this is a list #3 </li>
+        <li>this is a list #4 </li>
+        <li>this is a list #5 </li>
+        <li>this is a list #6 </li>
+        <li>this is a list #7 </li>
+        <li>this is a list #8 </li>
+        <li>this is a list #9 </li>
+        <li>this is a list #10 </li>
+
+    </ul>
+
+    <div class="Hy">
+        Helllo
+        <p>sdsdsdsd</p>
+        <a href="#">Google</a>
+    </div>
+    <button>Submit</button><br><br><br>
+    <a href="https://google.com" target="_blank">Google</a>
+</body>
+</html>

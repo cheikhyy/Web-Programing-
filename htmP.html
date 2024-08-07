@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Goo</title> 
+        <style>
+            body {
+                font-family: Arial, sans-serif; 
+            }
+            #title ,.FromSection{
+                text-align: center;
+                
+                border-radius:25px;
+                padding: 20px;
+            }
+            #Username ,#Password , #Phone , #Email , #WorkExperence ,#Enter,#YourSuggest ,#o1,#o2,#o3  {
+                background-color: beige;
+                padding: 20px;
+                margin: 10px auto;
+                width: 50%;
+                border-radius:50px;
+            }
+        </style>
+    </head>
+
+
+    <body style="background-color:lightskyblue;" >
+        <form action="index.php" method="post" enctype="multipart/form-data"> 
+    <section id="title"  >
+        <h1>Survey Form</h1>
+        <p>User | Stories | Survey | form</p>
+    </section>
+
+    <div id="d1"  class="FromSection">
+    <label for="Name" id="Text" >Name</label>
+    <input type="text" placeholder="Enter Name"  id="Username" max="30" min="5"class="form-input" mic required>
+    </div>
+
+    <div id="d2"  class="FromSection">
+        <label for="Password">Password</label>
+        <input type="Password" placeholder="Password" id="Password" max="20" min="5" class="form-input" required>
+    </div>
+    
+    <div id="d3"  class="FromSection">
+        <label for="Phone">Phone</label>
+        <input type="tel" placeholder="Phone" id="Phone" class="form-input" required>
+    </div>
+    
+    <div id="d4"  class="FromSection">
+        <label for="Email">Email</label>
+        <input type="email" placeholder="GooCode@gmail.com" id="Email" class="form-input" required>
+    </div>
+     
+    
+    <div id="d5"  class="FromSection">
+        <label for="WorkExperence">WorkExperence</label>
+        <input type="text" placeholder="WorkExperence" id="WorkExperence" class="form-input" required>
+    </div>
+    
+    <div id="d6"  class="FromSection">
+        <label for="Are you Work in company " class="form-input">Are you Work in company</label>
+        <select name="OPTION" id="Enter">
+            <option value="Yes">YES</option>
+            <option value="No">NO</option>
+            
+        </select>
+    </div>
+    
+    <div id="d7"  class="FromSection">
+        <label for="Your Suggest">Your Suggest </label><br>
+        <textarea name="Your Suggest" id="YourSuggest" rows="3" cols="20" class="form-input" required></textarea>
+    </div>
+    
+    <div id="d8"  class="FromSection">
+        <label for="major" id="o0">Your Major</label><br><br>  <br>
+    
+        <label for="major" id="o1">Computer Science</label><br>
+        <input type="checkbox"  > <br>
+    
+        <br><br><label for="major" id="o2">Data Analyst</label> <br> 
+        <input type="checkbox" > <br>
+    
+        <br><br><label for="major" id="o3">Cyber Security</label> <br>
+        <input type="checkbox"   >
+    </div>
+    
+    <div id="d9"  class="FromSection">
+        <input type="submit" style="font-size : 25px; background-color:beige ; border-radius :500px;">    </div>
+    
+    <div id="d10" class="FromSection">
+        <input type="reset" style="font-size : 25px; background-color:beige ; border-radius :500px;">
+    </div>
+    </body>    
+    
+    
+</html> 

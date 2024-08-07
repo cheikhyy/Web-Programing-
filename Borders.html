@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            border: 3px solid white; /* Applies a solid white border of 3px to the entire body */
+            display: flow-root;
+        }
+        
+        h2 {
+            
+            border-bottom: 10px solid red; /* Adds a solid red border at the bottom of h2 elements */
+            border-top: 10px solid yellow; /* Adds a solid yellow border at the top of h2 elements */
+            border-left: 10px solid maroon; /* Adds a solid maroon border to the left of h2 elements */
+            border-right: 10px solid hotpink; /* Adds a solid hotpink border to the right of h2 elements */
+            border-radius: 20px; /* Rounds the corners of the h2 borders with a radius of 20px */
+            text-shadow: 3px 3px 3px red; /* Adds a shadow to the text in h2 elements */
+            color: beige;
+        }
+        
+        .p0, .p2 {
+            border: 3px solid yellowgreen; /* Adds a solid yellowgreen border of 3px to elements with class .p0 and .p2 */
+            margin-bottom: 30px;
+            border-radius: 90px; /* Rounds the corners of the borders with a radius of 90px */
+            padding: 25px; /* Adds padding of 25px inside the elements */
+            color: #2EB626; /* Sets the text color to a specific shade of green */
+            font-family: 'Playwrite Polska', Verdana, Arial; /* Sets the font family, with fallbacks */
+            font-size: 30px; /* Sets the font size to 30px */
+        }
+        
+        .p1 {
+            border-style: outset; /* Adds an outset border style */
+            color: #23639A; /* Sets the text color to a specific shade of blue */
+            font-family: 'Playwrite SK', cursive; /* Sets the font family to "Playwrite SK", with cursive as a fallback */
+            font-size: 20px; /* Sets the font size to 20px */
+            font-weight: bold; /* Makes the text bold */
+            font-style: italic; /* Makes the text italic */
+        }
+        
+        .p3 {
+            /* Incorrect CSS syntax: border-right should have style and width specified */
+            border-right: #2EB626; /* Should specify style and width like border-right: 3px solid #2EB626; */
+            color: hsl(113, 42%, 34%); /* Sets the text color using HSL values */
+        }
+        
+        .p4 {
+            color: rgb(241, 179, 91); /* Sets the text color using RGB values */
+        }
+        
+        .pvv {
+            margin: 20px 300px 40px 150px; /* Sets margin: top 20px, right 300px, bottom 40px, left 150px */
+            text-align: inherit; /* Inherits the text alignment from its parent */
+            border: 5px solid white; /* Adds a solid white border of 5px */
+            font-size: 5em; /* Sets the font size to 5em (relative to the parent) */
+            width: 250px; /* Sets the width to 250px */
+            height: 250px; /* Sets the height to 250px */
+        }
+        
+        #img1 {
+            float: left;
+            margin-right: 10px;
+        }
+        
+        .box1 {
+            color: aliceblue;
+        }
+        
+        #img2 {
+            float: right;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>hello </h2>
+    <h1 id="p1" class="p0">hello welcome to my websie</h1>
+    <p id="p1" class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis amet itaque laboriosam id? Similique unde cumque commodi eveniet sunt iure quasi aspernatur consequatur soluta accusantium, nisi, voluptatum deleniti quidem cum?</p>
+    <br>
+    <p id="ep" class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis amet itaque laboriosam id? Similique unde cumque commodi eveniet sunt iure quasi aspernatur consequatur soluta accusantium, nisi, voluptatum deleniti quidem cum?</p>
+    <br>
+    <p id="ee" class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis amet itaque laboriosam id? Similique unde cumque commodi eveniet sunt iure quasi aspernatur consequatur soluta accusantium, nisi, voluptatum deleniti quidem cum?</p>
+    <br>
+    <p id="rr" class="p4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis amet itaque laboriosam id? Similique unde cumque commodi eveniet sunt iure quasi aspernatur consequatur soluta accusantium, nisi, voluptatum deleniti quidem cum?</p>
+
+     
+</body>
+</html>
+
+<!--
+    border Types : 
+                    border: 1px solid #000000;  Solid Border: A solid line border with a single color.
+                    border: 1px dashed #000000; Dashed Border: A border with dashed lines.
+                    border: 1px dotted #000000; Dotted Border: A border with dotted lines.
+                    border: 3px double #000000; Double Border: A border with two solid lines.
+                    border: 2px groove #000000; Groove Border: A 3D grooved border effect.
+                    border: 2px ridge #000000;  Ridge Border: A 3D ridged border effect.
+                    border: 2px inset #000000;  Inset Border: A 3D inset border effect.
+                    border: 2px outset #000000; Outset Border: A 3D outset border effect.
+                    border: 1px solid transparent;  Transparent Border: A border that is transparent.
+
+    -->
